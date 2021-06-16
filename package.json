@@ -1,0 +1,43 @@
+{
+  "name": "just-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Revezer/Just-ai.git"
+  },
+  "author": "Revezer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Revezer/Just-ai/issues"
+  },
+  "homepage": "https://github.com/Revezer/Just-ai#readme",
+  "dependencies": {
+    "@babel/core": "7.13.14",
+    "@babel/preset-env": "7.13.12",
+    "@babel/preset-react": "7.13.13",
+    "babel-loader": "8.2.2",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "style-loader": "^2.0.0",
+    "webpack": "4.46.0",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.2",
+    "axios": "0.21.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.2.1",
+    "css-loader": "5.2.4",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "1.5.0",
+    "node-sass": "5.0.0",
+    "sass-loader": "^10",
+    "url-loader": "^4.1.1"
+  }
+}
